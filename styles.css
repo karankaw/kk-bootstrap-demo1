@@ -1,0 +1,10 @@
+body {
+  background: orange;
+}
+
+.row [class*='col-'] {
+  background-color: #cceeee;
+  background-clip: content-box;
+  min-height: 100px;
+  margin-bottom: 15px;
+}
